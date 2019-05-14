@@ -1,0 +1,1 @@
+﻿INSERT INTO floorPlans values(3, 2, 0, null, 1)

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AD_ClientID" description="AD Client Application ID" defaultValue="51e529ab-0ff5-4be6-b9dc-69d0efbc6820" tags="AD_ClientAPPID">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Bryan\\source\\repos\\DatabasesFinalProject\\DatabasesFinalProject\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='ida:ClientId']/@value" />
+  </parameter>
+  <parameter name="AD_TenantId" description="AD Tenant Id" defaultValue="4605e262-b447-4aaa-aea7-f70112a6dda8" tags="AD_TenantId">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Bryan\\source\\repos\\DatabasesFinalProject\\DatabasesFinalProject\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='ida:TenantId']/@value" />
+  </parameter>
+  <parameter name="AD_Domain" description="AD Domain" defaultValue="miamioh.edu" tags="AD_Domain">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Bryan\\source\\repos\\DatabasesFinalProject\\DatabasesFinalProject\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='ida:Domain']/@value" />
+  </parameter>
+ 
+</parameters>
